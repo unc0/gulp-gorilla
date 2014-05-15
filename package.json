@@ -1,0 +1,33 @@
+{
+  "name": "gulp-gorilla",
+  "description": "Compile gorillascript files",
+  "version": "0.1.0",
+  "homepage": "http://github.com/unc0/gulp-gorilla",
+  "repository": "git://github.com/unc0/gulp-gorilla.git",
+  "author": "\"UnCO\" Lin <trash__box@163.com>",
+  "main": "./index.js",
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "convert-source-map": "^0.3.3",
+    "gorillascript": "~0.9.10",
+    "gulp-util": "^2.2.1",
+    "through2": "^0.4.1",
+    "tmp": "0.0.23",
+    "vinyl-sourcemaps-apply": "^0.1.1"
+  },
+  "devDependencies": {
+    "prova": "*",
+    "gorillascript": "~0.9.10"
+  },
+  "scripts": {
+    "test": "./node_modules/gorillascript/bin/gorilla test/test.gs"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/unc0/gulp-gorilla/raw/master/LICENSE"
+    }
+  ]
+}
